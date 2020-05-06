@@ -1,0 +1,73 @@
+.Main-Header {
+  background-image: url(images/1.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.Main-Header-Button {
+  background: #FFFFFF;
+  border-radius: 8px;
+  color: #3A80BA;
+  border:none;
+  width: 154px;
+  height: 56px;
+  font-size: 16px;
+}
+
+.Main-Footer {
+  display: flex;
+  color: #FFFFFF;
+  justify-content: space-around;
+  background-image: url("images/2.svg");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+.Main-Footer > div {
+  padding-top: 12%;
+}
+
+.Card-Wrapper {
+  display: flex;
+  justify-content: center;
+}
+.Card {
+  width: 380px;
+  height: 627px;
+  background: #FFFFFF;
+  border-radius: 32px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.Small-Card {
+  height: 323px;
+  width: 380px;
+  background: #FFFFFF;
+  border-radius: 32px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.Form > button {
+  background: #3A80BA;
+  border-radius: 8px;
+  width: 176px;
+  height: 56px;
+  color: white;
+  border: none;
+
+}
+
+.Form > input {
+
+}
+
+.Main-Banner {
+  background: linear-gradient(93.19deg, #255D8B 2.29%, #3A80BA 96.79%);
+  height: 429px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
